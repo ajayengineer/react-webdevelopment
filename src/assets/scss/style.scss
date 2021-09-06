@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import "./partials/variables";
+@import "./partials/typographic";
+body{
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;	
+}
+a:hover {
+    text-decoration: none;
+}
+.header-bg{
+  background: $light-gray;
+  height: auto;
+  padding: 4px 0 0px 0px;
+  border-bottom: 3px solid $orange;
+}
+.container{
+  max-width: 1300px!important; 
+}
+.relative-internal{
+	position: relative;
+}
+.topbar{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: $font-25;
+  color: $orange;
+  z-index: 1;
+}
+.topbar span{
+	padding-right:39px;
+}
+.navbar{
+	padding: 0px;
+}
+.navbar-brand{
+	padding: 0px;
+	font-size: $font-22;
+	color:$black!important;
+ }
+.navbar-collapse{
+	margin-top: 75px;
+}
+.navbar-nav li a{
+	padding: 0 20px;
+	margin: 0px;
+	line-height: 50px;
+}
+.navbar-nav li a:hover{
+	background: $orange;
+	color: $white!important;
+	font-size: $font-22;
+}
+.btn-color{
+	background: $blue;
+	height: auto;
+	line-height: 34px;
+	padding: 0 17px;
+	font-size: $font-15;
+	text-transform: uppercase;
+	color: $white;
+	border: 0px;
+}
+.btn-color1{
+	background: $blue;
+	height: auto;
+	line-height: 62px;
+	padding: 0 50px;
+	font-size: $font-24;
+	text-transform: uppercase;
+	color: $white;
+	border: 0px;
+	margin: 0 auto;
+	margin-bottom:$margin-55; 
+}
+.btn-color1:hover {
+    background: $orange;
+    color: $white;
+    text-decoration: none;
+}
+.btn-color2{
+	background: $blue;
+	height: auto;
+	line-height: 34px;
+	padding: 0 50px;
+	font-size: $font-24;
+	text-transform: uppercase;
+	color: $white;
+	border: 0px;
+	margin: 0 auto;
+}
+.btn-color2:hover {
+    background: $orange;
+    color: $white;
+    text-decoration: none;
+}
+#service-box{
+	  margin-bottom: $margin-55;
+	p{
+		font-size: $font-16;
+		color: $blue;
+		text-align: center;
+
+	}
+	.in{
+		padding-bottom: $padding-55;
+	}
+	.links{
+		text-align: center;
+		float: left;
+		width: $width-100;
+	}
+}
+.carousel .thumbs-wrapper{display: none;}
+.home-card{
+  background: url('../images/whoweare.jpg') no-repeat;
+  height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	  p{
+	  	color: $white;
+	  	line-height: 44px;
+	  	font-size: $font-22;
+	  	text-align: center;
+	  	padding: 0 20%;
+	  	margin-bottom: $margin-55;
+	  }
+}
+.subscribe-card{
+	background: $light-gray;
+	height: 390px;
+		h3{
+			color: $black;
+		}
+		input[type=text] {
+		  width: $width-100;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		}
+		input[type=submit]{
+			margin-top: $margin-55;
+		}
+}
+
+.margin-auto{
+	margin: $mar-auto;
+}
+.footer-outer {
+    background: $dark-gray;
+    float: left;
+    width: $width-100;
+    padding-top: $padding-27;
+
+     .copyright{
+     	padding-top: $padding-20;
+     	padding-bottom: $padding-20;
+     	span{
+     		color:$orange;
+     	}
+     }
+     ul{
+     	padding-left: $padding-20;
+   
+     	li{
+     		color: $white;
+     		padding: 5px 0px;
+     		a{
+     			color: $white;
+     		}
+     		:hover{
+     			color: $orange;
+     		}
+     		&:hover{
+     			color: $orange;
+     		}
+     	}
+     }
+     h5{
+     	color: $white;
+     }
+     .white{
+     	color: $white;
+     }
+     .get-touch{
+     	ul {
+     		padding-left: 0px;
+     		margin-left: 0px;
+     		margin-top: $margin-25;
+	     		li{
+	     		list-style: none;
+	     		float: left;
+	     		padding: 0 10px;
+
+	     	}
+     	}
+     }
+     address{
+     	padding-right: 10%;
+     }
+}
+.text-white{color: $white;}
+.orange{background: $black}
+.content-part{
+	width: auto;
+	min-height: calc(100vh - 441px;);
+}
+.inner-baner{
+	position: relative;
+		h1{
+		position: absolute;
+	    top: 23%;
+	    z-index: 1;
+	    color: #fff;
+		}
+		img{
+			width: $width-100;
+		}
+}
+.overlay{
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.8);
+	position: absolute;
+}
+.inner-content{
+	padding: $padding-55;
+	h1,h2,h3,h4,h5,h6{
+		text-align: left;
+	}
+}
+.service-box{
+	h2{
+		text-align: center;
+	}
+}

@@ -1,0 +1,53 @@
+/*COLORS*/
+$light-gray: #c0c0c0;
+$dark-gray: #272727;
+$orange: #db8226;
+$white: #ffffff;
+$black: #000000;
+$blue: #465188;
+
+
+
+/*FONT SIZE*/
+$font-15: 15px;
+$font-16: 16px;
+$font-22: 22px;
+$font-24: 24px;
+$font-25: 25px;
+$font-30: 30px;
+$font-42: 42px;
+
+h1{
+	width: $width-100;
+	font-size: $font-42;
+	color: $black;
+	text-align: center;
+	padding-top: $padding-55;
+	padding-bottom: $padding-55;
+	float: left;
+}
+h2{
+	font-size: $font-30;
+	text-align: center;
+	color: $blue;
+	padding-bottom:$padding-25;
+}
+
+.title1{
+	width: $width-100;
+	font-size: $font-42;
+	color: $white;
+	text-align: center;
+	padding-top: $padding-55;
+	padding-bottom: $padding-55;
+	float: left;
+}
+.title2{
+	width: $width-100;
+	font-size: $font-42;
+	color: $black;
+	text-align: center;
+	padding-top: $padding-55;
+	padding-bottom: $padding-55;
+	float: left;
+}
